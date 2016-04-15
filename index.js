@@ -2,9 +2,6 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
 
-app.set('port', (process.env.PORT || 5000));
-app.listen(app.get('port'));
-
 app.use(bodyParser.json());
 
 app.get('/', function(req, res) {
@@ -37,4 +34,6 @@ app.post('/instagram', function(req, res) {
   res.sendStatus(200);
 });
 
-app.listen();
+app.listen(80, function () {
+    console.log('LUIS.FB iniciado en puerto: ' + 80);
+});
