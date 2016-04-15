@@ -2,7 +2,7 @@
     "name": "LUIS_FB",
     "version": "0.0.1",
     "description": "Understand language contextually, so your app communicates with people in the way they speak.",
-    "main": "./index.js",
+    "main": "index.js",
     "author": {
         "name": "David Mart",
         "email": "david.mtlopez@gmail.com"
@@ -13,6 +13,7 @@
     },
     "preferGlobal": "false",
     "dependencies": {
-        "express": "*"
+        "express": "*",
+        "body-parser": "*"
     }
 }
