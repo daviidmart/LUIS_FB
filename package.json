@@ -1,16 +1,25 @@
 {
     "name": "LUIS_FB",
-    "version": "0.0.1",
-    "main": "index.js",
+    "version": "0.1.30",
+    "description": "Understand language contextually, so your app communicates with people in the way they speak.",
+    "main": "./lib/LUIS_FB",
     "author": {
         "name": "David Mart",
         "email": "david.mtlopez@gmail.com"
     },
-    "engines": {
-        "node": "4.4.3"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aluzino1811/LUIS_FB.git"
     },
+    "preferGlobal": "false",
     "dependencies": {
         "express": "*",
-        "body-parser": "*"
+        "https": "*",
+        "body-parser": "*",
+        "better-console": "*",
+        "socket.io": "*",
+        "tedious": "*",
+        "random-token": "*",
+        "fs": "*"
     }
 }
