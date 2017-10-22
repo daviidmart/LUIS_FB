@@ -17,7 +17,7 @@
         "https": "*",
         "body-parser": "*",
         "better-console": "*",
-        "socket.io": "*",
+        "socket.io": ">=2.0.4",
         "tedious": "*",
         "random-token": "*",
         "fs": "*"
