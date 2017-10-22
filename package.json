@@ -16,7 +16,7 @@
         "express": "*",
         "https": "*",
         "body-parser": "*",
-        "better-console": "*",
+        "better-console": ">=1.0.1",
         "socket.io": "*",
         "tedious": "*",
         "random-token": "*",
