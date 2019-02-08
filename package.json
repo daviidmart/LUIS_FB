@@ -18,7 +18,7 @@
         "body-parser": "*",
         "better-console": "*",
         "socket.io": "*",
-        "tedious": "*",
+        "tedious": ">=5.0.3",
         "random-token": "*",
         "fs": "*"
     }
