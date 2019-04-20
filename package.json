@@ -19,7 +19,7 @@
         "better-console": "*",
         "socket.io": "*",
         "tedious": "*",
-        "random-token": "*",
+        "random-token": ">=0.0.8",
         "fs": "*"
     }
 }
