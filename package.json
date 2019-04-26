@@ -15,7 +15,7 @@
     "dependencies": {
         "express": "*",
         "https": "*",
-        "body-parser": "*",
+        "body-parser": ">=1.19.0",
         "better-console": "*",
         "socket.io": "*",
         "tedious": "*",
