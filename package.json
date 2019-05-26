@@ -13,7 +13,7 @@
     },
     "preferGlobal": "false",
     "dependencies": {
-        "express": "*",
+        "express": ">=4.17.1",
         "https": "*",
         "body-parser": "*",
         "better-console": "*",
